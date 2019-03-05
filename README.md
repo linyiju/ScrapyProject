@@ -18,10 +18,13 @@ $ git clone url(git's url)
 ````
 $ pip3 install virtualenv
 ````
+* Create virtualenv
+````
+$ python3 -m venv vnev
+````
 * Activate virtual env
 ````
-$ cd.... (get to the root folder)
-$ python3 -m venv vnev
+$ . venv/bin/activate
 ````
 * Install requirements.txt on virtual environment.
 ````
@@ -31,6 +34,7 @@ $  pip3 install -r requirements.txt
 # Getting Start
 Now, you can use scrapy to scrape data.
 ````
+$ cd myproject
 $ scrapy crawl mybot
 ````
 If you want to store the result into the format for csv, just follow below:
