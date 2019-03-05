@@ -12,7 +12,11 @@ This Scrapy project show how to scrape the website(http://quotes.toscrape.com/).
 # Install
 * Clone repository or down zip file directly:
 ````
+<<<<<<< HEAD
     $ git clone url(git's url)
+=======
+$ git clone url(git's url)
+>>>>>>> 7d289abb5dba3f3baa56f897b7b89a52762a2f3f
 ````
 * Install virtual virtualenv
 ````
