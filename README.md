@@ -39,7 +39,7 @@ $ scrapy crawl mybot
 ````
 If you want to store the result into the format for csv, just follow below:
 ````
-$ scrapy crawl mybot -o [your_file name]
+$ scrapy crawl mybot -o [your_file_name.csv]
 ````
 These formats are supported out of the box: 
 * JSON
