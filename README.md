@@ -20,7 +20,7 @@ $ pip3 install virtualenv
 ````
 * Activate virtual env
 ````
-$ cd.... (got to the root folder)
+$ cd.... (get to the root folder)
 $ python3 -m venv vnev
 ````
 * Install requirements.txt on virtual environment.
