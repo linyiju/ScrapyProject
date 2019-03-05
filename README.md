@@ -11,20 +11,32 @@ This Scrapy project show how to scrape the website(http://quotes.toscrape.com/).
 
 # Install
 * Clone repository or down zip file directly:
+````
     $ git clone url(git's url)
+````
 * Install virtual virtualenv
-	$ pip3 install virtualenv
+````
+$ pip3 install virtualenv
+````
 * Activate virtual env
-	$ cd.... (got to the root folder)
-	$ python3 -m venv vnev
+````
+$ cd.... (got to the root folder)
+$ python3 -m venv vnev
+````
 * Install requirements.txt on virtual environment.
-	$  pip3 install -r requirements.txt
+````
+$  pip3 install -r requirements.txt
+````
 
 # Getting Start
 Now, you can use scrapy to scrape data.
-	$ scrapy crawl mybot
+````
+$ scrapy crawl mybot
+````
 If you want to store the result into the format for csv, just follow below:
-	$ scrapy crawl mybot -o `your_file name`
+````
+$ scrapy crawl mybot -o [your_file name]
+````
 These formats are supported out of the box: 
 * JSON
 * JSON lines
@@ -32,5 +44,5 @@ These formats are supported out of the box:
 * XML
 
 # Commercial Support
-Link:http://doc.scrapy.org/en/latest/index.html
+Link : http://doc.scrapy.org/en/latest/index.html
 
