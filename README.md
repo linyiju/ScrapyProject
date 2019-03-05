@@ -11,7 +11,9 @@ This Scrapy project show how to scrape the website(http://quotes.toscrape.com/).
 
 # Install
 * Clone repository or down zip file directly:
-    $ git clone url(git's url)
+````
+$ git clone url(git's url)
+````
 * Install virtual virtualenv
 	$ pip3 install virtualenv
 * Activate virtual env
