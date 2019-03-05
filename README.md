@@ -20,7 +20,7 @@ $ pip3 install virtualenv
 ````
 * Create virtualenv
 ````
-$ python3 -m venv vnev
+$ python3 -m venv venv
 ````
 * Activate virtual env
 ````
