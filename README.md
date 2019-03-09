@@ -5,7 +5,7 @@ This Scrapy project show how to scrape the website(http://quotes.toscrape.com/).
 
 ### Requirements
 * Python : 3.6.5
-* Scrapy : 1.5.1
+* Scrapy : 1.6.0
 * System : Mac OSX 10.14.3
 
 
@@ -46,6 +46,11 @@ These formats are supported out of the box:
 * JSON lines
 * CSV
 * XML
+
+# Avaiable Spiders
+* myproject
+** mybot
+** login
 
 # Commercial Support
 Link : http://doc.scrapy.org/en/latest/index.html
