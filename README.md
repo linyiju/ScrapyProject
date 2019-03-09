@@ -49,8 +49,8 @@ These formats are supported out of the box:
 
 # Avaiable Spiders
 * myproject
-** mybot
-** login
+  * mybot
+  * login
 
 # Commercial Support
 Link : http://doc.scrapy.org/en/latest/index.html
