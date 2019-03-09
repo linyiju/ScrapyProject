@@ -15,7 +15,6 @@ class MybotSpider(scrapy.Spider):
         	author = quote.xpath('.//*[@class ="author"]/text()').extract_first()
         	tags = quote.xpath('.//*[@class ="keywords"]/@content').extract_first()
 
-
         	yield  {'Text' : text,
                      'Author' :author,
         	         'Tags':tags}
